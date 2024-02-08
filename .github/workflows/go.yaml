@@ -12,3 +12,7 @@ jobs:
         uses: matthewhughes-uw/setup-go@96dc2922127bfc204e643cd3360a1342f9849326
         with:
           go-version-file: 'go.mod'
+      - name: go version
+        run: go version
+      - name: Run app
+        run: go run ./main.go
