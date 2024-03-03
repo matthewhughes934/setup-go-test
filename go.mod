@@ -2,7 +2,7 @@ module example-mod
 
 go 1.21.0
 
-toolchain go1.21.1
+toolchain go1.22.0
 
 require golang.org/x/tools v0.13.0
 
