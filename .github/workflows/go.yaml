@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Go
-        uses: matthewhughes-uw/setup-go@96dc2922127bfc204e643cd3360a1342f9849326
+        uses: matthewhughes-uw/setup-go@be5f1f14e13428058f4b1038857ca3804a607cd2
         with:
           go-version-file: 'go.mod'
       - name: go version
